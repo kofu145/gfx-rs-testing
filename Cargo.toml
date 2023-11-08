@@ -1,0 +1,25 @@
+[package]
+name = "gfx-rs-testing"
+version = "0.1.0"
+authors = ["Kofu145g <kofu145g@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.23.8"
+winit = "0.22"
+wgpu = "0.6"
+futures = "0.3.5"
+shaderc = "0.6"
+bytemuck = "1.3.1"
+failure = "0.1.8"
+cgmath = "0.17"
+tobj = "2.0.2"
+rand = "0.7.3"
+
+#[dependencies.wgpu]
+#version = "0.6"
+#features = ["vulkan"]
+
+
